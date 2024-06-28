@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F3E5D8;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+main{
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    max-width: 600px;
+    padding: 35px;
+    margin: 100px auto;
+}
+.img-wrapper{
+    width: 100%;
+    height: 270px;
+}
+.img-wrapper img{
+    width: 100%;
+    height: 100%;
+   border-radius:20px;
+    margin-bottom: 15px;
+    object-fit: cover;
+    
+}
+
+.header{
+    color: #2F2E2C;
+    font-size: 3vmax;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.desc-1{
+    color: #2F2E2C;
+    line-height: 1.5;
+}
+.unordered-list{
+    background-color:#FFF7FC ;
+    margin: 20px 0px 20px 0px;
+    line-height: 1.9;
+    padding:10px  ;
+}
+
+.unordered-list li{
+    list-style-position: inside;
+}
+.unordered-list li::marker{
+    color: #672942;
+}
+
+.pretime{
+    color:#672942 ;
+    padding: 5px 0px 5px 0px;
+}
+
+.ingredients{
+    color: #804531;
+    padding-bottom: 15px;
+}
+.ingr-list{
+    margin: 15px 0px 30px 0px;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 30px;
+}
+.ingr-list li {
+    list-style-position: inside;
+}
+
+.ingr-list li::marker{
+    color: #804531;
+    line-height: 1.9;
+}
+.h-inst{
+    color: #804531;
+    margin-top: 15px;
+}
+
+.instructions{
+    color: #2F2E2C;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid lightgray;
+}
+
+.instructions li {
+    padding-left: 10px;
+   
+}
+
+.instructions li::marker {
+    color: #804531;
+    line-height: 1.9;
+    font-weight: bold; 
+}
+
+.nuti-h{
+    margin-top:15px ;
+   color:#804531 ;
+}
+.table-desc{
+    padding: 15px 0px 15px 0px;
+    color:#2F2E2C;
+}
+
+    
+table {
+    width: 100%;
+   border-collapse: collapse;
+   border-color: transparent;
+    line-height: 3;
+}
+
+table tr td{
+    border-bottom: 1px solid lightgray;
+}
+
+table td:last-child {
+    color: #804531;
+    font-weight: 500;
+}
+
+
+
+.instructions #ol{
+    padding-left: 18px;
+  
+}
